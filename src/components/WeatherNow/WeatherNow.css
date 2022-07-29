@@ -1,0 +1,18 @@
+.weatherNow {
+    width: 50%;
+    align-self: center;
+}
+
+.weatherNow__location {
+    font-size: calc(10px + 3vmin);
+}
+
+.weatherNow__tempNow {
+    font-size: calc(10px + 7vmin);
+}
+
+.weatherNow__tempRange {
+    font-size: calc(10px + 2vmin);
+    display: flex;
+    justify-content: space-evenly;
+}

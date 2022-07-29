@@ -1,0 +1,51 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background: #466368;
+    background: linear-gradient(#647388, #294050);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    z-index: 10;
+    color: white;
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+.modal__content {
+    padding: 20px;
+    border-radius: 12px;
+    background: #2f6f7a;
+    background: radial-gradient(#224c54, #26567a);
+
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vmax;
+}
+
+input {
+    font-size: 20px;
+    padding: 15px;
+}
+
+button {
+    font-size: 20px;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        flex-direction: column;
+    }
+}
